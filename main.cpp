@@ -1,7 +1,7 @@
 // Itay Shemesh, CPTS 223, Professor Kandaswamy
 // PA1, Linux Game
 
-#include "linkedList.h"
+#include "LinkedList.h"
 #include <iostream>
 #include <string>
 #include <vector>

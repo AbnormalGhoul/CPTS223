@@ -6,7 +6,7 @@
 #include <cstdlib>
 #include <ctime>
 #include "LinkedList.h"
-#include "Data.h"
+#include "Data.cpp"
 
 class PlayerProfile {
 public:
