@@ -14,6 +14,7 @@ public:
     ~Destination();
     void printPosition() const;
     void printDestinationName() const;
+    std::string getName() const;
 };
 
 #endif

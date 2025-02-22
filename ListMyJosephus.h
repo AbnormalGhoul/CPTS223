@@ -1,10 +1,11 @@
-// ListMyJosephus.h
 #ifndef LISTMYJOSEPHUS_H
 #define LISTMYJOSEPHUS_H
 
 #include "Destination.h"
 #include <list>
 #include <iostream>
+#include <vector>
+#include <string>
 
 class ListMyJosephus {
 private:
@@ -12,13 +13,12 @@ private:
     std::list<Destination> circle;
 
 public:
-    ListMyJosephus(int m, int n);
+    ListMyJosephus(int m, int n, const std::vector<std::string>& cityNames);
     ~ListMyJosephus();
     void clear();
     bool isEmpty() const;
     int currentSize() const;
     void eliminateDestination();
-    void printAllDestinations() const;
-};
+    void printAllDestinations(std::ostream& os = std::cout) const;};
 
-#endif // LISTMYJOSEPHUS_H
+#endif
