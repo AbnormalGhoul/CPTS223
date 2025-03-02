@@ -5,7 +5,7 @@ CXX = g++
 CXXFLAGS = -g -Wall -std=c++11
 
 # Target executable
-TARGET = bst_program
+TARGET = pa3
 
 # Source files
 SRCS = main.cpp
@@ -21,7 +21,7 @@ $(TARGET): $(OBJS)
 	$(CXX) $(CXXFLAGS) -o $(TARGET) $(OBJS)
 
 # Compile the source files into object files
-%.o: %.cpp BST.h
+%.o: %.cpp avl_map.h uscity.h
 	$(CXX) $(CXXFLAGS) -c $< -o $@
 
 # Clean up the build files
