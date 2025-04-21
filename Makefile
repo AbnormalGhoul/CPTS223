@@ -1,9 +1,14 @@
-out: clean compile execute
+CXX = g++
+CXXFLAGS = -std=c++14 -Wall -g
+OBJS = main.cpp
+HEADERS = Product.h HashTable.h MultiMap.h Sort.h
 
-compile: main.cpp
-	g++ -g -Wall -std=c++14 main.cpp -o mainexe
+all: compile
 
-execute: mainexe
+compile: $(OBJS) $(HEADERS)
+	$(CXX) $(CXXFLAGS) $(OBJS) -o mainexe
+
+run: compile
 	./mainexe
 
 clean:
