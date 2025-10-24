@@ -1,4 +1,3 @@
-# Itay Shemesh
 # PA1, Linux Quiz
 # Professor Kandaswamy
 # Due Feburay 2nd
