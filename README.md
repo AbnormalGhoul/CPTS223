@@ -1,4 +1,3 @@
-# Itay Shemesh
 # PA2, Josephus Problem
 # Professor Kandaswamy
 # Due Feburay 17th
