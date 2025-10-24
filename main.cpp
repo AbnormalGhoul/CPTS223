@@ -1,4 +1,4 @@
-// Itay Shemesh, CPTS 223, Professor Kandaswamy
+// CPTS 223, Professor Kandaswamy
 // PA1, Linux Game
 
 #include "LinkedList.h"
