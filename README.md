@@ -1,4 +1,3 @@
-Itay Shemesh
 PA3, AVL Trees
 Professor, Dr. Kandaswamy
 Due, March 2nd
