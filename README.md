@@ -1,5 +1,5 @@
 # Sorting Algorithms Analysis 
-- CPTS223, MA4, Itay Shemesh
+- CPTS223, MA4
 
 ## Question 1, Comparison
 | Algorithm        | Min Time (ms) | Max Time (ms) | Average Time (ms) | Std Deviation (ms) |
